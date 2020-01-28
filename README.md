@@ -5,7 +5,7 @@ A visualized data structure of a Japanese children's word game called 'Shiritori
 
 ## Background
 
-**'Shiritori'** - literally "taking the end" - is a game where players are required to say a noun that ends with the final kana (Japanese character) of a previous word. If the player said a word that ends with an N-kana (ん/ン), they lose.
+**'Shiritori'** _(しりとり)_ - literally "taking the end" - is a game where players are required to say a noun that ends with the final kana (Japanese character) of a previous word. If the player said a word that ends with an N-kana (ん/ン), they lose.
 
 For example:
 
@@ -33,3 +33,8 @@ At least in Japanese (the home of Pokémon), it's a fun way of test the amount o
 - https://www.youtube.com/watch?v=5cYH53TgGQI
 - https://www.youtube.com/watch?v=4yXzri9CTTM
 - https://www.youtube.com/watch?v=RlSff8PjoGs
+
+## To-Do
+
+- [ ] Add Attributes For Data
+- [ ] Parse for Shiritori
