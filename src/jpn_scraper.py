@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 # Get the HTML
 url = 'https://wiki.xn--rckteqa2e.com/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E4%B8%80%E8%A6%A7'
 response = requests.get(url)
-soup = BeautifulSoup(response.text, "html5lib")
+soup = BeautifulSoup(response.text, "lxml")
 
 # Output File
 jpn_names = [('NDex', 'Japanese Kana')]

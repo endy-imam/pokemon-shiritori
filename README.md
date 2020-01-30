@@ -37,4 +37,32 @@ At least in Japanese (the home of Pokémon), it's a fun way of test the amount o
 ## To-Do
 
 - [ ] Add Attributes For Data
-- [ ] Parse for Shiritori
+- [x] Parse for Shiritori
+
+## Setting Up
+
+1. Install [`virtualenv`](https://virtualenv.pypa.io/en/latest/) from pip, create a virtual environment `venv` (or whatever you like to call it), and activate it:
+
+   ```bash
+   ~ $ cd pokemon-shiritori
+   ~/pokemon-shiritori $ pip install virtualenv
+   ~/pokemon-shiritori $ virtualenv venv
+   ~/pokemon-shiritori $ source venv/bin/activate
+   (venv) ~/pokemon-shiritori $
+   ```
+
+2. Install all of the required packages from the included `requirements.txt` file:
+
+   ```bash
+   (venv) ~/pokemon-shiritori $ pip install -r requirements.txt
+   ```
+
+## Running Test
+
+To run all tests from the `test` directory, be at the root of the repository `/pokemon-shiritori/` and call:
+
+```bash
+(venv) ~/pokemon-shiritori $ python -m unittest discover
+```
+
+and ensure that it gives an `OK` as a result.

@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 # Get the HTML
 url = 'https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number'
 response = requests.get(url)
-soup = BeautifulSoup(response.text, "html5lib")
+soup = BeautifulSoup(response.text, "lxml")
 
 # Get the tables
 gen_count = 8
