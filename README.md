@@ -9,13 +9,14 @@ A visualized data structure of a Japanese children's word game called 'Shiritori
 
 For example:
 
-| JPN Kana    | Romaji        | English |
-| -----------:| -------------:| ------- |
-| さく**ら**   | _saku_**RA**  | sakura  |
-| ラジ**オ**   | _raji_**O**   | radio   |
-| おにぎ**り** | _onigi_**RI** | onigiri |
-| すも**う**   | _sumo_**U**   | sumo    |
-| うど**ん**   | _udo_**N**    | udon    |
+| JPN Kana    | Romaji        | English  |
+| -----------:| -------------:| -------- |
+| さく**ら**   | _saku_**RA**  | sakura   |
+| ラジ**オ**   | _raji_**O**   | radio    |
+| おにぎ**り** | _onigi_**RI** | onigiri  |
+| り**す**    | _ri_**SU**    | squirrel |
+| すも**う**   | _sumo_**U**   | sumo     |
+| うど**ん**   | _udo_**N**    | udon     |
 
 The player saying _udon_ lose this game.
 
