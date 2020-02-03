@@ -2,6 +2,7 @@
 
 A visualized data structure of a Japanese children's word game called 'Shiritori', but with Pokémon.
 
+![Shiritori Weighted Graph](./visuals/shiritori_graph.png)
 
 ## Background
 
@@ -37,8 +38,10 @@ At least in Japanese (the home of Pokémon), it's a fun way of test the amount o
 
 ## To-Do
 
-- [ ] Add Attributes For Data
+- [x] Add Attributes For Data
 - [x] Parse for Shiritori
+- [x] Visualize Graph
+- [ ] Possibility for Improvement
 
 ## Setting Up
 

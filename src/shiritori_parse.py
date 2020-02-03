@@ -4,7 +4,7 @@ _char_stepback = { 'ー', '♀', '♂' }
 _char_refactor = {
 	'ァ': 'ア', 'ィ': 'イ', 'ゥ': 'ウ', 'ェ': 'エ', 'ォ': 'オ',
 	'ャ': 'ヤ', 'ュ': 'ユ', 'ョ': 'ヨ',
-	'2': 'ツ', 'Z': 'ド'
+	'２': 'ツ', '2': 'ツ', 'Z': 'ド'
 }
 
 def shiritori_parse(jpn_name):
@@ -15,6 +15,6 @@ def shiritori_parse(jpn_name):
 	end = jpn_name[-1]
 	if end in _char_stepback:
 		end = jpn_name[-2]
-	elif end in _char_refactor:
+	if end in _char_refactor:
 		end = _char_refactor[end]
 	return (start, end)
